@@ -1,0 +1,415 @@
+/* Main navbar start------- */
+.navMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+  
+    margin-top: 30px;
+}
+
+/* Main navbar end------- */
+
+/* Item and button start----- */
+.itemandbutton {
+    display: flex;
+    align-items: end;
+    margin: 0 auto;
+    padding-left: 23%;
+    width: 60%;
+}
+
+/* Item and button end------- */
+
+/* Menu list start------- */
+.manulist {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Nav item start ------ */
+.navitem {
+    display: flex;
+    list-style: none;
+    gap: 10%;
+    align-items: end;
+    margin: 0 auto;
+    padding: 0;
+    color: rgb(5, 168, 168);
+}
+
+.navitem > li:hover {
+    cursor: pointer;
+    color: rgb(142, 176, 226);
+}
+
+/* Nav item end */
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) and (min-width:425px) {
+    .navMain {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .itemandbutton {
+        flex-direction: column;
+        padding: 3%;
+        width: 90%;
+    }
+
+    .manulist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navitem {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px)  {
+    .navMain {
+        padding: 10px;
+    }
+
+    .itemandbutton {
+        padding: 0;
+    }
+
+    .navitem {
+        gap: 10px;
+    }
+}
+@media (max-width: 424px) and (min-width:300px) {
+    .navMain {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .itemandbutton {
+        flex-direction: column;
+        padding: 3%;
+        width: 90%;
+    }
+
+    .manulist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navitem {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+}
+/* nav bar total end-------- */
+
+/* ----flower and text div ------st */
+
+/* main flower and text div */
+body{
+    margin: 0;
+}
+.mainftdiv{
+   
+     margin-top: 20px;
+     background-color:   #E554731A;
+    
+   
+}
+.childriv{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2,1fr);
+}
+ 
+/* for heading */
+.textdivh1{
+    padding-top: 25%;
+    line-height: 1.2;
+    font-size: 18px;
+    font: 300;
+    
+    
+}
+/* heading end */
+
+/* for p tag  */
+.textsmall{
+    line-height: 1.5;
+    font-size: 9px;
+}
+/* end */
+
+
+/* input div st */
+.shop{
+    background-color: #E55473;
+    border: 0.1px;
+    height: 25px;
+    font-size: 8px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font: bold;
+}
+.shop:hover{
+    background-color: #f794aa;
+}
+/* input end------- */
+
+
+/* Featured div start */
+.Featured{
+    margin: 0 auto;
+    
+    width: 50%;
+    margin-top: 90px;
+    text-align: center;
+}
+.Featuredtext{
+     
+    line-height: 1;
+    font-size: 13px;
+}
+.Featuredp{
+     font-size: 14px;
+}
+
+/* card div start */
+
+
+
+.carddiv{
+    display: grid;
+    padding:1%;
+   margin: 0 auto;
+   grid-template-columns: repeat(3,1fr);
+  gap: 3%;
+  width: 80%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+  height: auto;
+  margin-top: 40px;
+   
+ }
+ /* this is card setion------- */
+ .card{
+    border-radius: 6px;
+   margin: 0 auto;
+    background-color: #A7216226;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 1px solid rgb(229, 236, 236);
+    padding: 2%;
+    width: 100%;
+    text-align: center
+ }
+ .card2{
+    border-radius: 6px;
+   margin: 0 auto;
+    background-color:   #0597A026;
+
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 1px solid rgb(229, 236, 236);
+    padding: 2%;
+    width: 100%;
+    text-align: center
+ }
+ .card3{
+    border-radius: 6px;
+   margin: 0 auto;
+    background-color:   #477D1126;
+
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 1px solid rgb(229, 236, 236);
+    padding: 2%;
+    width: 100%;
+    text-align: center
+ }
+ /* this is a card section end */
+ .cdiv{
+    margin-top: -16px;
+ }
+ .cardp1{
+    font-size: 12px;
+    padding: 2%;
+ }
+ 
+ /* ----responsiv----- */
+ @media (min-width: 300px) and (max-width:425px) {
+   .carddiv{
+      grid-template-columns: 1fr;
+   }
+   .itdiv{
+      grid-template-columns: 1fr;
+   }
+ 
+  .childriv{
+    grid-template-columns: repeat(1,1fr);
+
+    
+  }
+  .textdivh1{
+    padding-top: 10%;
+  }
+ }
+ @media (min-width: 426px) and (max-width:767px) {
+   .carddiv{
+      grid-template-columns:1fr 1fr 1fr;
+   }
+   .itdiv{
+      grid-template-columns:1fr  ;
+       
+   }
+   .div4{
+      font-size: 16px;
+       
+   }
+   .div5{
+      font-size: 10px;
+   }
+   span{
+      font-size: 13px;
+   }
+   
+ }
+ @media (min-width: 768px) and (max-width:1023px) {
+   .carddiv{
+ 
+      
+      grid-template-columns:1fr 1fr 1fr;
+   }
+   .itdiv{
+      grid-template-columns:1fr 1fr  ;
+       
+   }
+   span{
+      font-size: 20px;
+   }
+  .div4{
+   font-size: 20px;
+  }
+}
+/* card div total end */
+
+
+/* provide----- */
+.maindiv55{
+    margin-top: 60px;
+}
+.div55{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-top: 2%;
+    background-color:  #2727270D;
+      
+    width: 80%;
+    margin: 0 auto;
+    gap: 4%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+}
+ 
+.div11{
+     
+    font-size: 10px;
+    text-align: center;
+    margin-top: 22px;
+}
+.div12{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 22px;
+     
+}
+.div13{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+
+/* disciunt div start */
+.discountdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:   #E554730D;
+
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+     
+    margin-top: 50px;
+}
+.idiv{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+     
+     text-align: center;
+ }
+ .tdiv{
+    width: 100%;
+    height: auto;
+    margin-top: px;
+    padding-left: 6%;
+     
+    
+   text-align: center;
+   padding-bottom: 3%;
+
+ }
+ .H2{
+    font-size: 25px;
+ }
+ .P1{
+    font-size: 12px;
+ }
+ .Input{
+    
+    background-color:  #E55473;
+    border: 1px solid #f794aa;
+    cursor: pointer;
+    font-size: 7px;
+    color: white;
+    height: 20px;
+    width: 19%;
+    border-radius: 5px;
+ }
+ .Input:hover{
+    background-color: #f794aa;
+ }
+ /* discount div end */
+
+ /* instragrame div */
+
+ .insdiv{
+    background-color: red;
+    width: 50%;
+    margin: 0 auto;
+ }
+.insh2{
+    background-color: aqua;
+}
+.insp2{
+    background-color: blue;
+}
